@@ -1,0 +1,40 @@
+.introducao {
+    font-size: var(--size-title);
+    max-width: var(--size-container);
+    margin: 60px auto;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.sobre-flexblog {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--size-container);
+    margin: 0 auto;
+    border-top: 2px solid var(--color-lightblue);
+    border-bottom: 2px solid var(--color-lightblue);
+    padding: 60px 0;
+}
+
+.sobreInfo {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobreInfo > h1 {
+    font-size: var(--size-title);
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.sobreInfo > p {
+    font-size: var(--size-text);
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+.sobreImg {
+    flex: 1 1 150px;
+    margin: 0 10px;
+}

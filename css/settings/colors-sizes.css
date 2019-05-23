@@ -1,0 +1,13 @@
+:root {
+    --color-black: #222222;
+    --color-darkblue: #122ab2;
+    --color-lightblue: #2c70ff;
+    --color-text: #7c7c7c;
+
+
+    --size-text: 20px;
+    --size-logo: 36px;
+    --size-title: 48px;
+    --size-container: 960px;
+    
+}

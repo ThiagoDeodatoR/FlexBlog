@@ -1,0 +1,26 @@
+.super-info{
+    max-width: var(--size-container);
+    background-color: var(--color-darkblue);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.super-info::before{
+    content: "";
+    width: 100%;
+    background-color: var(--color-darkblue);
+    position: absolute;
+    height: 36px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.super-info > a,
+.super-info > p {
+    color: white;
+    margin: 0 10px 10px 10px;
+}
