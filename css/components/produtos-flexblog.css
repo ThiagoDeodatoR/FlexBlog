@@ -1,0 +1,41 @@
+.produtos-flexblog {
+    max-width: var(--size-container);
+    margin: 60px auto;
+}
+
+.produtos-flexblog > h1 {
+    font-size: var(--size-title);
+    font-weight: bold;
+    margin: 0 10px 60px 10px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produtosItem {
+    flex: 1 1 180px;
+    margin: 10px;
+}
+
+.produtosItem > h2 {
+    font-size: var(--size-title);
+    font-weight: bold;
+    color: var(--color-textlight);
+    background-color: var(--color-bgcgray);
+    padding: 50px 20px;
+}
+
+.-purple {
+    border-top: 8px solid var(--color-purple);
+}
+
+.-red {
+    border-top: 8px solid var(--color-red);
+}
+
+.-blue {
+    border-top: 8px solid var(--color-blue);
+}
